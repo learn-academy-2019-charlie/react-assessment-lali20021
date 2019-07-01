@@ -10,13 +10,10 @@ FALSE - React is a full stack framework for modern web applications
 - React is a flexible library that plays the role of V in an MVC framework
 
  
- #### 2. What are "smart"(logic) and "dumb"(display) components? Explain the difference and also add why we bother to make the distinction between them.
+#### 2. What are "smart"(logic) and "dumb"(display) components? Explain the difference and also add why we bother to make the distinction between them.
  
- 
- //Your Answer
- 
- 
- //Googled Answer
+Smart component is a component with a state defined in a constructor. Smart components contain callback functions that are used to update the state and get passed down to their chid components as props.
+Dumb component is a component without a state, their only job is to present to the DOM.
  
  
 #### 3. When we use "yarn add ..." in the terminal - what is yarn doing? And what file will always be automatically updated after we add a package with yarn?
@@ -65,21 +62,17 @@ export default Recipes
   <file>
   <checkbox>
  
- #### 7. How would you explain state to a friend who doesn't know code?
+#### 7. How would you explain state to a friend who doesn't know code?
  
- //Your Answer
- 
- 
- //Googled Answer
+Its how something/anything/certain thing behaves in a certain situation and time.
  
  
- #### 8. What is the difference between component state and props? Your answer should include a short explanation of both.
+#### 8. What is the difference between component state and props? Your answer should include a short explanation of both.
  
- 
- //Your Answer
- 
- 
- //Googled Answer
+In React Component data flows in one direction, from parent to a child.
+Props are variables passed by parent component to a child component.
+State is directly initialized and managed by the component.
+State is an object that determines how the component renders and behaves. State allows you to create components that are dynamic and interactive.
  
    
 #### 9. Write a paragraph or so about your experience with building tic-tac-toe. Some topics to start with might be: things you learned about yourself, concepts from React that stood out to you, something about pair programming (if you paired), or the experience of building something in code from scratch.
