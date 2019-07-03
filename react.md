@@ -50,14 +50,6 @@ export default Recipes
 
 #### 6. Name three html input types. (NOTE: text is the default type - so it doesn't count in this case)
  
- //Your Answer
- 
-  <password>
-  <file>
-  <checkbox>
- 
- //Googled Answer
- 
   <password>
   <file>
   <checkbox>
@@ -79,5 +71,4 @@ State is an object that determines how the component renders and behaves. State 
 Learning React was definitely a challenge. 
 It has been a fun experience as well though. My team built treasure hunt game. Pair programming is great and very helpful. I dont think React is my strenth and I doubt I would be able to finish building that app on my own.
 I really hope that eventually I can master React. Knowing React with Rails is very powerful.
-
 
